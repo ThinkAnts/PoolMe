@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		186A566C1D24318000B78DDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 186A566B1D24318000B78DDA /* main.m */; };
+		186A566F1D24318000B78DDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 186A566E1D24318000B78DDA /* AppDelegate.m */; };
+		186A56781D24318000B78DDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186A56761D24318000B78DDA /* Main.storyboard */; };
+		186A567A1D24318000B78DDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186A56791D24318000B78DDA /* Assets.xcassets */; };
+		186A567D1D24318000B78DDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186A567B1D24318000B78DDA /* LaunchScreen.storyboard */; };
+		186A56881D24318000B78DDA /* PoolMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 186A56871D24318000B78DDA /* PoolMeTests.m */; };
+		186A56931D24318000B78DDA /* PoolMeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 186A56921D24318000B78DDA /* PoolMeUITests.m */; };
+		186A56A21D24324A00B78DDA /* PMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186A56A11D24324A00B78DDA /* PMHomeViewController.m */; };
+		186A56A51D24329A00B78DDA /* PMProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186A56A41D24329A00B78DDA /* PMProfileViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		186A56841D24318000B78DDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 186A565F1D24318000B78DDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 186A56661D24318000B78DDA;
+			remoteInfo = PoolMe;
+		};
+		186A568F1D24318000B78DDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 186A565F1D24318000B78DDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 186A56661D24318000B78DDA;
+			remoteInfo = PoolMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		186A56671D24318000B78DDA /* PoolMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoolMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		186A566B1D24318000B78DDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		186A566D1D24318000B78DDA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		186A566E1D24318000B78DDA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		186A56771D24318000B78DDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		186A56791D24318000B78DDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		186A567C1D24318000B78DDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		186A567E1D24318000B78DDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		186A56831D24318000B78DDA /* PoolMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoolMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		186A56871D24318000B78DDA /* PoolMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PoolMeTests.m; sourceTree = "<group>"; };
+		186A56891D24318000B78DDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		186A568E1D24318000B78DDA /* PoolMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoolMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		186A56921D24318000B78DDA /* PoolMeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PoolMeUITests.m; sourceTree = "<group>"; };
+		186A56941D24318000B78DDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		186A56A01D24324A00B78DDA /* PMHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMHomeViewController.h; sourceTree = "<group>"; };
+		186A56A11D24324A00B78DDA /* PMHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMHomeViewController.m; sourceTree = "<group>"; };
+		186A56A31D24329A00B78DDA /* PMProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMProfileViewController.h; sourceTree = "<group>"; };
+		186A56A41D24329A00B78DDA /* PMProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMProfileViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		186A56641D24318000B78DDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186A56801D24318000B78DDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186A568B1D24318000B78DDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		186A565E1D24318000B78DDA = {
+			isa = PBXGroup;
+			children = (
+				186A56691D24318000B78DDA /* PoolMe */,
+				186A56861D24318000B78DDA /* PoolMeTests */,
+				186A56911D24318000B78DDA /* PoolMeUITests */,
+				186A56681D24318000B78DDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		186A56681D24318000B78DDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				186A56671D24318000B78DDA /* PoolMe.app */,
+				186A56831D24318000B78DDA /* PoolMeTests.xctest */,
+				186A568E1D24318000B78DDA /* PoolMeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		186A56691D24318000B78DDA /* PoolMe */ = {
+			isa = PBXGroup;
+			children = (
+				186A566D1D24318000B78DDA /* AppDelegate.h */,
+				186A566E1D24318000B78DDA /* AppDelegate.m */,
+				186A56A01D24324A00B78DDA /* PMHomeViewController.h */,
+				186A56A11D24324A00B78DDA /* PMHomeViewController.m */,
+				186A56A31D24329A00B78DDA /* PMProfileViewController.h */,
+				186A56A41D24329A00B78DDA /* PMProfileViewController.m */,
+				186A56761D24318000B78DDA /* Main.storyboard */,
+				186A56791D24318000B78DDA /* Assets.xcassets */,
+				186A567B1D24318000B78DDA /* LaunchScreen.storyboard */,
+				186A567E1D24318000B78DDA /* Info.plist */,
+				186A566A1D24318000B78DDA /* Supporting Files */,
+			);
+			path = PoolMe;
+			sourceTree = "<group>";
+		};
+		186A566A1D24318000B78DDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				186A566B1D24318000B78DDA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		186A56861D24318000B78DDA /* PoolMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				186A56871D24318000B78DDA /* PoolMeTests.m */,
+				186A56891D24318000B78DDA /* Info.plist */,
+			);
+			path = PoolMeTests;
+			sourceTree = "<group>";
+		};
+		186A56911D24318000B78DDA /* PoolMeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				186A56921D24318000B78DDA /* PoolMeUITests.m */,
+				186A56941D24318000B78DDA /* Info.plist */,
+			);
+			path = PoolMeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		186A56661D24318000B78DDA /* PoolMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 186A56971D24318000B78DDA /* Build configuration list for PBXNativeTarget "PoolMe" */;
+			buildPhases = (
+				186A56631D24318000B78DDA /* Sources */,
+				186A56641D24318000B78DDA /* Frameworks */,
+				186A56651D24318000B78DDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PoolMe;
+			productName = PoolMe;
+			productReference = 186A56671D24318000B78DDA /* PoolMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		186A56821D24318000B78DDA /* PoolMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 186A569A1D24318000B78DDA /* Build configuration list for PBXNativeTarget "PoolMeTests" */;
+			buildPhases = (
+				186A567F1D24318000B78DDA /* Sources */,
+				186A56801D24318000B78DDA /* Frameworks */,
+				186A56811D24318000B78DDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				186A56851D24318000B78DDA /* PBXTargetDependency */,
+			);
+			name = PoolMeTests;
+			productName = PoolMeTests;
+			productReference = 186A56831D24318000B78DDA /* PoolMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		186A568D1D24318000B78DDA /* PoolMeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 186A569D1D24318000B78DDA /* Build configuration list for PBXNativeTarget "PoolMeUITests" */;
+			buildPhases = (
+				186A568A1D24318000B78DDA /* Sources */,
+				186A568B1D24318000B78DDA /* Frameworks */,
+				186A568C1D24318000B78DDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				186A56901D24318000B78DDA /* PBXTargetDependency */,
+			);
+			name = PoolMeUITests;
+			productName = PoolMeUITests;
+			productReference = 186A568E1D24318000B78DDA /* PoolMeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		186A565F1D24318000B78DDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ThinkAnts;
+				TargetAttributes = {
+					186A56661D24318000B78DDA = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4254GLA3RG;
+					};
+					186A56821D24318000B78DDA = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4254GLA3RG;
+						TestTargetID = 186A56661D24318000B78DDA;
+					};
+					186A568D1D24318000B78DDA = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4254GLA3RG;
+						TestTargetID = 186A56661D24318000B78DDA;
+					};
+				};
+			};
+			buildConfigurationList = 186A56621D24318000B78DDA /* Build configuration list for PBXProject "PoolMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 186A565E1D24318000B78DDA;
+			productRefGroup = 186A56681D24318000B78DDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				186A56661D24318000B78DDA /* PoolMe */,
+				186A56821D24318000B78DDA /* PoolMeTests */,
+				186A568D1D24318000B78DDA /* PoolMeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		186A56651D24318000B78DDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186A567D1D24318000B78DDA /* LaunchScreen.storyboard in Resources */,
+				186A567A1D24318000B78DDA /* Assets.xcassets in Resources */,
+				186A56781D24318000B78DDA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186A56811D24318000B78DDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186A568C1D24318000B78DDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		186A56631D24318000B78DDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186A566F1D24318000B78DDA /* AppDelegate.m in Sources */,
+				186A56A51D24329A00B78DDA /* PMProfileViewController.m in Sources */,
+				186A56A21D24324A00B78DDA /* PMHomeViewController.m in Sources */,
+				186A566C1D24318000B78DDA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186A567F1D24318000B78DDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186A56881D24318000B78DDA /* PoolMeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186A568A1D24318000B78DDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186A56931D24318000B78DDA /* PoolMeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		186A56851D24318000B78DDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 186A56661D24318000B78DDA /* PoolMe */;
+			targetProxy = 186A56841D24318000B78DDA /* PBXContainerItemProxy */;
+		};
+		186A56901D24318000B78DDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 186A56661D24318000B78DDA /* PoolMe */;
+			targetProxy = 186A568F1D24318000B78DDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		186A56761D24318000B78DDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				186A56771D24318000B78DDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		186A567B1D24318000B78DDA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				186A567C1D24318000B78DDA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		186A56951D24318000B78DDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		186A56961D24318000B78DDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		186A56981D24318000B78DDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PoolMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PM.PoolMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		186A56991D24318000B78DDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PoolMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PM.PoolMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		186A569B1D24318000B78DDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PoolMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PM.PoolMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PoolMe.app/PoolMe";
+			};
+			name = Debug;
+		};
+		186A569C1D24318000B78DDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PoolMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PM.PoolMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PoolMe.app/PoolMe";
+			};
+			name = Release;
+		};
+		186A569E1D24318000B78DDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PoolMeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PM.PoolMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PoolMe;
+			};
+			name = Debug;
+		};
+		186A569F1D24318000B78DDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PoolMeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PM.PoolMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PoolMe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		186A56621D24318000B78DDA /* Build configuration list for PBXProject "PoolMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186A56951D24318000B78DDA /* Debug */,
+				186A56961D24318000B78DDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		186A56971D24318000B78DDA /* Build configuration list for PBXNativeTarget "PoolMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186A56981D24318000B78DDA /* Debug */,
+				186A56991D24318000B78DDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		186A569A1D24318000B78DDA /* Build configuration list for PBXNativeTarget "PoolMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186A569B1D24318000B78DDA /* Debug */,
+				186A569C1D24318000B78DDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		186A569D1D24318000B78DDA /* Build configuration list for PBXNativeTarget "PoolMeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186A569E1D24318000B78DDA /* Debug */,
+				186A569F1D24318000B78DDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 186A565F1D24318000B78DDA /* Project object */;
+}
